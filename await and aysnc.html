@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// function f1(){
+//     setTimeout(()=>{
+//         console.log('f1 called');
+//     },1000)
+    
+// }
+function f2(){
+    console.log('f2 called');
+}
+// f1();
+//  f2()
+//   type of problems can be resolved thisby async and awiat;
+async function f1()
+{
+    const data= await fetch('https://jsonplaceholder.typicode.com/todos/1');//fetch return promise ,by using await we can get reoslved promise 
+    console.log(data);
+    f2()
+}
+f1()
+    </script>
+</body>
+</html>
