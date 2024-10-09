@@ -1,1 +1,3 @@
-functionCall.apply(obj1,["kanpur","Delhi"]);
+let score=null;
+// console.log(typeof (score))
+// console.log(score);
