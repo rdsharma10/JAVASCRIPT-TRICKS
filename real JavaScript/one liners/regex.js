@@ -21,7 +21,7 @@
 
 
 //extract vowels from objects
-// const arr=["messi","oroe","miasous"];
+// const arr=["messi","oroe","miaso"];
 // const ans=arr.map((x)=>{
 //     return x.replace(/[m]/gi,"")
 // })
