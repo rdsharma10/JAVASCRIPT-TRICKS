@@ -11,6 +11,8 @@ function un1(total,value)
     return total+value;
 }
 console.log(m);
+console.log(typeof(x)+typeof(x));   
+
 console.log(typeof(y)+typeof(y));
 
  
