@@ -16,5 +16,6 @@
 //basics
 const marvel_heroes=["thor","ironman","spiderman"];
 const dc=["superman","flash",'batman'];
-marvel_heroes.push(dc)
+marvel_heroes.push(dc);
+console.log(marvel_heroes);
 console.log(marvel_heroes.length);
