@@ -9,5 +9,5 @@ function factorial(n: number): number {
 }
 
 // Example usage
-console.log(factorial(5));  // Output: 120
-console.log(factorial(0));  // Output: 1
+console.log(factorial(5));  
+console.log(factorial(0));  
