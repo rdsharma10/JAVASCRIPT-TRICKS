@@ -4,4 +4,5 @@ function handlingConfirm()
     if(x){
         console.log("thor","ironman","spiderman");
     }
+    console.log("thank you for visiting");
 }
