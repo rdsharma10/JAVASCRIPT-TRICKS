@@ -5,4 +5,5 @@ function handlingConfirm()
         console.log("thor","ironman","spiderman");
     }
     console.log("thank you for visiting");
+    console.log("have a nice day");
 }
