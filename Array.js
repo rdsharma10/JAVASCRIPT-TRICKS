@@ -19,7 +19,6 @@ const dc=["superman","flash",'batman'];
 marvel_heroes.push(dc);
 var x= confirm("Do you want to see the marvel heroes list");
 if(x){
-    console.log(marvel_heroes.length);
     console.log(marvel_heroes);
 }
 console.log(marvel_heroes.length);
