@@ -7,7 +7,7 @@ console.log(Reflect.has(obj,"val"));
 console.log("val" in obj);
 let arr=[1,2,3];
 let arr1=[4,5,6];
-[arr,arr1]=[arr1,arr]
+[arr,arr1]=[arr1,arr];
 console.log(arr)
 console.log(~~9.9999);
 
