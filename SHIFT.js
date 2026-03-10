@@ -11,6 +11,7 @@ let arr1=[4,5,6];
 console.log(arr)
 console.log(~~9.9999);
 
+console.log(Object.is(0,-0));
 let obj1={
     f_name:"Rishi",
     l_name:"Sharma"
