@@ -19,8 +19,9 @@ let functionCall= function(Hometown)
 {
     console.log(this.f_name+" "+this.l_name + " "+ Hometown);
 }
-functionCall.apply(obj1,["kanpur","Delhi"]);
-let ans=functionCall.bind(obj1,"kanpur");
+let an=["kanpur","Delhi"];
+functionCall.apply(obj1,an);
+let ans=functionCall.bind(obj1,an[0]);
 ans()
 
 
